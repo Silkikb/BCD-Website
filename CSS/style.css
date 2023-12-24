@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.4%;
+}
+body{
+font-family: 'Jost', sans-serif;
+font-size: 1.4rem;
+
+}
+.back-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar .logo-brand{
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+.menubar{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 50rem;
+}
+.navbar-nav li .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-right: 4rem;
+}
+.navbar-nav li .nav-link.active,
+.navbar-nav li .nav-link:hover{
+    color: #FFC500;
+}
+.btn{
+    color: #fff;
+    border: 1px solid #FFC500;
+    padding:1rem 1.5rem;
+}
+.btn-connect{
+    border-radius: 25px;
+    font-size: 1.4rem;
+   background-color: rgba(255, 197, 0, 0.23);
+}
+.text-blog{
+    text-align: center;
+    padding-bottom: 12rem;
+}
+.text-blog h3{
+    padding-top: 17rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.text-blog h3 span{
+    color: #00B0DA;
+}
+.text-blog h2{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.text-blog .text-sec{
+    color: #FFC500;;
+}
+.text-blog .edit{
+    padding-top: 12rem;
+}
+.home-banner{
+    position: relative;
+    padding: 0;
+}
+.homeBannerbtnCloud{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+.homeBannerbtnCloud img{
+    width: 100%;
+}
+.experties-sec{
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+.text-side{
+
+}
+.text-side .text-head{
+    color: #2D2D2D;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.text-side .text-h2{
+    font-size: 7rem;
+    color: #FFC500;
+    font-weight: 600;
+}
+.text-side .text-h2 span{
+    font-weight: 400;
+    color: #2D2D2D;
+    font-size: 4rem;
+}
+.text-side h2{
+    font-size: 7rem;
+    font-weight: 600;
+    color: #00B0DA;
+}
+.text-side h3{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #2D2D2D;
+}
+.border-time{
+    display: grid;
+    padding-top: 8rem;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px;
+}
+.border-exp{
+    text-align: center;
+    padding: 12px 40px;
+    border-radius: 15px;
+}
+.gradient-border {
+    /* border: 2px solid;
+    border-image: linear-gradient(to bottom, #00B0DA, #FFC500);
+    border-image-slice: 1; */
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #00B0DA, #FFC500) border-box;
+    border-radius: 25px;
+    border: 2px solid transparent;
+  }
+.border-exp h4{
+    padding-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000;
+}
+.border-exp  .texth2{
+    font-size: 6rem;
+    font-weight: 400;
+    color: #000;
+}
+.border-exp .texth2 span{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+.experties{
+    padding-top: 120px;
+    padding-bottom: 120px;
+   position: relative;
+   background: linear-gradient(180deg, #FFE280 0%, rgba(0, 176, 218, 0.53) 100%);
+}
+.banner-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.banner-top img{
+    width: 100%;
+}
+.sec-ban-img{
+    width: 100%;
+    height: 100%; 
+    
+}
+.banner-text{
+    text-align: center;
+    padding-top: 9rem;
+    position: relative;
+}
+.heading-pattern{
+    position: absolute;
+    font-size: 150px;
+    font-weight: 600;
+    top: 50px;
+    left: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.21);
+}
+.banner-text h2{
+    position: relative;
+    z-index: 2;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #2D2D2D;
+    padding-top: 5rem;
+}
+.banner-text p{
+    width: 41%;
+    position: relative;
+    z-index: 2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2D2D2D;
+    margin-top: 2rem;
+}
+.icon-box{
+    padding-top: 2rem;
+}
+.icon-exp{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.Angular-theme-icon{
+    margin-right: 5rem;
+}
+.exp-theme-tel{
+    display: grid;
+    place-items: center;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
+    width: 115px;
+    height: 106px;
+}
+.icon-exp h4{
+    display: block;
+}
+.icon-tel-exp{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Angular-theme-icon h4{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #2D2D2D;
+    font-weight: 500;
+    margin-top: 1rem;
+}
